@@ -1,3 +1,18 @@
 h1 {
-  color: blue;
+  color: black;
+}
+
+#home-intro{
+    text-align: center;
+
+    border: 3px solid black;
+    
+}
+
+#p2{
+    color:blue;
+}
+
+#home-intro:hover{
+    background-color: lightblue;
 }
