@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeingInfinity - Auto Suggest</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+    <header>
+        <div align="right">
+            <a href="#settings" aria-label="Settings" title="Settings">
+                &#9881;
+            </a>
+        </div>
+    </header>
+
+    <main align="center">
+        
+        <h1>
+            <span id="logo-being">Being</span><span id="logo-infinity">Infinity</span>
+        </h1>
+
+        <p>
+            <small>One million phrases, four algorithms, prefix based auto suggest</small>
+        </p>
+
+        <form action="#" method="get">
+            <input 
+                type="search" 
+                id="search-bar" 
+                name="query" 
+                list="phrase-suggestions" 
+                placeholder="Start typing..." 
+                size="50" 
+                autocomplete="off"
+            >
+            <button type="submit">Search</button>
+
+            <datalist id="phrase-suggestions">
+                <option value="prefix based search">
+                <option value="prefix trees and tries">
+                <option value="four algorithms overview">
+                <option value="one million phrases dataset">
+            </datalist>
+        </form>
+
+    </main>
+
+</body>
+</html>
